@@ -1,0 +1,1905 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073732485 9 0 511 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 1 Знак";
+	mso-style-next:Обычный;
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:18.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	mso-font-kerning:0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h1.CxSpFirst
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 1 Знак";
+	mso-style-next:Обычный;
+	mso-style-type:export-only;
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:18.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	mso-font-kerning:0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h1.CxSpMiddle
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 1 Знак";
+	mso-style-next:Обычный;
+	mso-style-type:export-only;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:18.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	mso-font-kerning:0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h1.CxSpLast
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 1 Знак";
+	mso-style-next:Обычный;
+	mso-style-type:export-only;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:18.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	mso-font-kerning:0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h2
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 2 Знак";
+	mso-style-next:Обычный;
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:112%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h3
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 3 Знак";
+	mso-style-next:Обычный;
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:112%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:normal;
+	font-style:italic;}
+h4
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 4 Знак";
+	mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:112%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	letter-spacing:.25pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;}
+h5
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 5 Знак";
+	mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:112%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:12.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:normal;
+	font-style:italic;}
+h6
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 6 Знак";
+	mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:112%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	background:white;
+	mso-background-themecolor:background1;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	letter-spacing:.25pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 7 Знак";
+	mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	font-size:10.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#5A5A5A;
+	mso-themecolor:text1;
+	mso-themetint:165;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 8 Знак";
+	mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	font-size:10.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#7F7F7F;
+	mso-themecolor:text1;
+	mso-themetint:128;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 9 Знак";
+	mso-style-next:Обычный;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:112%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:9;
+	font-size:9.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#7F7F7F;
+	mso-themecolor:text1;
+	mso-themetint:128;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-noshow:yes;
+	mso-style-priority:35;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	color:#44546A;
+	mso-themecolor:text2;
+	letter-spacing:.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Название Знак";
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	mso-add-space:auto;
+	line-height:normal;
+	mso-pagination:widow-orphan;
+	font-size:26.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Название Знак";
+	mso-style-next:Обычный;
+	mso-style-type:export-only;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:normal;
+	mso-pagination:widow-orphan;
+	font-size:26.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Название Знак";
+	mso-style-next:Обычный;
+	mso-style-type:export-only;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:normal;
+	mso-pagination:widow-orphan;
+	font-size:26.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Название Знак";
+	mso-style-next:Обычный;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	mso-add-space:auto;
+	line-height:normal;
+	mso-pagination:widow-orphan;
+	font-size:26.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-priority:11;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Подзаголовок Знак";
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+em
+	{mso-style-priority:20;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	letter-spacing:.5pt;
+	font-weight:bold;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:normal;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-priority:29;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Цитата 2 Знак";
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-style:italic;}
+p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+	{mso-style-priority:30;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Выделенная цитата Знак";
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:57.6pt;
+	margin-bottom:12.0pt;
+	margin-left:57.6pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:125%;
+	mso-pagination:widow-orphan;
+	border:none;
+	mso-border-top-alt:solid windowtext .5pt;
+	mso-border-bottom-alt:solid windowtext .5pt;
+	padding:0cm;
+	mso-padding-alt:10.0pt 0cm 10.0pt 0cm;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-style:italic;}
+span.MsoSubtleEmphasis
+	{mso-style-priority:19;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	font-style:italic;}
+span.MsoIntenseEmphasis
+	{mso-style-priority:21;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	font-weight:bold;
+	font-style:italic;}
+span.MsoSubtleReference
+	{mso-style-priority:31;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	font-variant:small-caps;}
+span.MsoIntenseReference
+	{mso-style-priority:32;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	font-variant:small-caps;
+	font-weight:bold;}
+span.MsoBookTitle
+	{mso-style-priority:33;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	font-style:italic;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{mso-style-noshow:yes;
+	mso-style-priority:39;
+	mso-style-qformat:yes;
+	mso-style-parent:"Заголовок 1";
+	mso-style-next:Обычный;
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+p.MsoTocHeadingCxSpFirst, li.MsoTocHeadingCxSpFirst, div.MsoTocHeadingCxSpFirst
+	{mso-style-noshow:yes;
+	mso-style-priority:39;
+	mso-style-qformat:yes;
+	mso-style-parent:"Заголовок 1";
+	mso-style-next:Обычный;
+	mso-style-type:export-only;
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+p.MsoTocHeadingCxSpMiddle, li.MsoTocHeadingCxSpMiddle, div.MsoTocHeadingCxSpMiddle
+	{mso-style-noshow:yes;
+	mso-style-priority:39;
+	mso-style-qformat:yes;
+	mso-style-parent:"Заголовок 1";
+	mso-style-next:Обычный;
+	mso-style-type:export-only;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+p.MsoTocHeadingCxSpLast, li.MsoTocHeadingCxSpLast, div.MsoTocHeadingCxSpLast
+	{mso-style-noshow:yes;
+	mso-style-priority:39;
+	mso-style-qformat:yes;
+	mso-style-parent:"Заголовок 1";
+	mso-style-next:Обычный;
+	mso-style-type:export-only;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+span.1
+	{mso-style-name:"Заголовок 1 Знак";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 1";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	font-variant:small-caps;
+	letter-spacing:.25pt;}
+span.2
+	{mso-style-name:"Заголовок 2 Знак";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 2";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-variant:small-caps;}
+span.3
+	{mso-style-name:"Заголовок 3 Знак";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 3";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	font-style:italic;}
+span.4
+	{mso-style-name:"Заголовок 4 Знак";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 4";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	letter-spacing:.25pt;
+	font-weight:bold;}
+span.5
+	{mso-style-name:"Заголовок 5 Знак";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 5";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-style:italic;}
+span.6
+	{mso-style-name:"Заголовок 6 Знак";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 6";
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	letter-spacing:.25pt;
+	background:white;
+	mso-shading-themecolor:background1;
+	font-weight:bold;}
+span.7
+	{mso-style-name:"Заголовок 7 Знак";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 7";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	color:#5A5A5A;
+	mso-themecolor:text1;
+	mso-themetint:165;
+	font-weight:bold;
+	font-style:italic;}
+span.8
+	{mso-style-name:"Заголовок 8 Знак";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 8";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	color:#7F7F7F;
+	mso-themecolor:text1;
+	mso-themetint:128;
+	font-weight:bold;}
+span.9
+	{mso-style-name:"Заголовок 9 Знак";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 9";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	color:#7F7F7F;
+	mso-themecolor:text1;
+	mso-themetint:128;
+	font-weight:bold;
+	font-style:italic;}
+span.a
+	{mso-style-name:"Название Знак";
+	mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Название;
+	mso-ansi-font-size:26.0pt;
+	mso-bidi-font-size:26.0pt;
+	font-variant:small-caps;}
+span.a0
+	{mso-style-name:"Подзаголовок Знак";
+	mso-style-priority:11;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Подзаголовок;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-variant:small-caps;
+	letter-spacing:.5pt;
+	font-style:italic;}
+span.20
+	{mso-style-name:"Цитата 2 Знак";
+	mso-style-priority:29;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Цитата 2";
+	font-style:italic;}
+span.a1
+	{mso-style-name:"Выделенная цитата Знак";
+	mso-style-priority:30;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Выделенная цитата";
+	font-style:italic;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:404185720;
+	mso-list-template-ids:265831392;}
+@list l1
+	{mso-list-id:567956128;
+	mso-list-template-ids:265831392;}
+@list l1:level1 lfo1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-numbering:continue;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=RU link=blue vlink="#954F72" style='tab-interval:36.0pt'>
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US>TERMS OF SERVICE</span></h1>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>TREEHOUSE HOLDINGS develops and publishes games for mobile
+devices. In this policy, &quot;TREEHOUSE&quot; may also refer to &quot;We&quot;
+or &quot;Us&quot;.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>This Agreement requires the use of arbitration on an individual
+basis to resolve disputes, rather than jury trials or class actions, and also
+limits the remedies available to you in the event of a dispute.<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>This Terms of Service (“Agreement”) sets forth the legally
+binding terms for your use of any App (including any related services provided
+by TREEHOUSE). By using any App, you are accepting this Agreement and you
+represent and warrant that you have the right, authority, and capacity to enter
+into this Agreement. If you do not agree with all of the provisions of this
+Agreement, please do not use any App. This Agreement is the final, complete and
+exclusive agreement of you and TREEHOUSE with respect to the subject matters
+hereof (including the Apps) and supersedes and merges all prior discussions and
+agreements between the parties with respect to such subject matters (including
+any prior End User License Agreements, Terms of Service or Privacy Policy).<o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>1. End User License Agreement<o:p></o:p></span></h2>
+
+</div>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>1.1 License<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>Subject to the terms of this Agreement, TREEHOUSE grants you a
+non-transferable, non-exclusive, license to (a) use for your personal use, and
+(b) copy, for the purpose of downloading, installing and executing, the number
+of copies for which you are authorized by the download site of each App on a
+mobile device that you own or control for your use (the “License”).<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>1.2 Certain Restrictions<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>The rights granted to you in this Agreement are subject to the
+following restrictions: (a) you shall not license, sell, rent, lease, transfer,
+assign, distribute, host, or otherwise commercially exploit any App; (b) you
+shall not modify, translate, adapt, merge, make derivative works of, disassemble,
+decompile, reverse compile or reverse engineer any part of Apps, except to the
+extent the foregoing restrictions are expressly prohibited by applicable law;
+(c) you shall not access any App in order to build a similar or competitive
+service or application; (d) except as expressly stated herein, no part of any
+App may be copied, reproduced, distributed, republished, downloaded, displayed,
+posted or transmitted in any form or by any means, or (e) you shall not remove
+or destroy any copyright notices or other proprietary markings contained on or
+in any App. Any future release, update, or other addition to functionality of
+any App (including in-App purchases, additional levels, and gameplay
+enhancements) shall be subject to the terms of this Agreement, unless otherwise
+provided in terms associated with such addition. All copyright and other
+proprietary notices on any App content must be retained on any copies.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>1.3 Local Laws<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>You are solely responsible for compliance with all applicable
+laws, including without limitation export and import regulations.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>1.4 Modification<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>TREEHOUSE reserves the right, at any time, to modify, suspend,
+or discontinue the Apps or any part thereof with or without notice. You agree
+that TREEHOUSE will not be liable to you or to any third party for any
+modification, suspension, or discontinuance of any App or any part thereof.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>1.5 Ownership<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>Apps provided to you are licensed to you and not sold. TREEHOUSE
+(and its licensors, where applicable) own all right, title and interest, including
+all related intellectual property rights, in and to all Apps, excluding your
+User Content (defined below). This Agreement is not a sale and does not convey
+to you any rights of ownership in or related to any App. The TREEHOUSE name,
+logo, and the product names associated with the Apps belong to TREEHOUSE (or
+its licensors, where applicable), and no right or license is granted to use
+them by implication, estoppel or otherwise. TREEHOUSE (and its licensors, where
+applicable) reserve all rights not granted in this Agreement.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>1.6 Ads<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>When you start or stop an App, it may display an ad. During
+gameplay, banner and/or interstitial ads may be displayed.<o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>2. User Content<o:p></o:p></span></h2>
+
+</div>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>2.1 User Content<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>“User Content” of a user means any and all content that such
+user uploads, distributes, or otherwise provides via any App. You are solely
+responsible for your User Content. You assume all risks associated with use of
+your User Content, including any reliance on its accuracy, completeness or
+usefulness by others, or any disclosure of your User Content that makes you or
+any third party personally identifiable. You hereby represent and warrant that
+your User Content does not violate the Acceptable Use Policy (defined below).
+You may not state or imply that your User Content is in any way provided,
+sponsored or endorsed by TREEHOUSE. TREEHOUSE is not obligated to backup any
+User Content and User Content may be deleted at any time. You are solely
+responsible for creating backup copies of your User Content if you desire.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>2.2 License<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>By uploading, distributing, or otherwise using your User Content
+with any App, you automatically grant, and you represent and warrant that you
+have the right to grant, to TREEHOUSE an irrevocable, nonexclusive,
+royalty-free and fully paid, worldwide license, with the right to grant
+sublicenses, to reproduce, distribute, publicly display, publicly perform,
+prepare derivative works of, incorporate into other works, and otherwise use
+your User Content, solely to display your User Content on any App.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>2.3 Feedback<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>If you provide TREEHOUSE any feedback or suggestions
+(“Feedback”), you hereby assign to TREEHOUSE all rights in the Feedback and
+agree that TREEHOUSE shall have the right to use such Feedback and related
+information in any manner it deems appropriate. TREEHOUSE will treat any
+Feedback you provide to TREEHOUSE as non-confidential and non-proprietary. You
+agree that you will not submit to TREEHOUSE any information or ideas that you
+consider to be confidential or proprietary.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>2.4 Acceptable Use Policy<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>The following sets forth TREEHOUSE’s¬ “Acceptable Use Policy”:<o:p></o:p></span></p>
+
+<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:#333333'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:
+"Times New Roman";color:#333333'>You agree not to use any App to upload,
+distribute, or otherwise use any User Content (a) that violates any third-party
+right, including any copyright, trademark, patent, trade secret, moral right,
+privacy right, right of publicity, or any other intellectual property or
+proprietary right; (b) that is tortious, trade libelous, defamatory, false, or
+intentionally misleading, (c) that is harassing, abusive, threatening, harmful,
+vulgar, obscene, or offensive, or that contains pornography, nudity, or graphic
+or gratuitous violence, or that promotes violence, racism, discrimination,
+bigotry, hatred, or physical harm of any kind against any group or individual,
+or is otherwise objectionable, (d) that is harmful to minors in any way; (e)
+that constitutes unsolicited or unauthorized advertising, promotional
+materials, junk mail, spam, chain letters, pyramid schemes, or any other form
+of duplicative or unsolicited messages, whether commercial or otherwise; or (f)
+that violates of any law, regulation, or contractual obligations.<o:p></o:p></span></p>
+
+<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin;color:#333333'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:
+"Times New Roman";color:#333333'>You agree not to use any App to: (a) upload or
+distribute any computer viruses, worms, malicious code, or any software
+intended to damage or alter a computer system or data; (b) collect information
+or data regarding other users, including e-mail addresses, without their
+consent (e.g., using harvesting bots, robots, spiders, or scrapers); (c)
+disable, overly burden, impair, or otherwise interfere with servers or networks
+connected to Apps (e.g., a denial of service attack); (d) attempt to gain
+unauthorized access to the Site or App or servers or networks connected to Apps
+(e.g., through password mining); or (e) interfere with another user’s use and
+enjoyment of any App.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>2.5 Enforcement<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>We reserve the right (but have no obligation) to review any User
+Content in our sole discretion. We may remove or modify your User Content at
+any time for any reason in our sole discretion with or without notice to you.<o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>3. Term and Termination<o:p></o:p></span></h2>
+
+</div>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>3.1 This Agreement commences on
+the date you accept this Agreement (as described in the preamble) and will
+remain in full force and effect while you use the App, unless earlier
+terminated in accordance with this Agreement.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>3.2 Notwithstanding the forgoing,
+if you used any App prior to the date you accepted this Agreement (as described
+in the preamble), you hereby acknowledge and agree that this Agreement
+commences on the date you first use any App (<span class=SpellE>which ever</span>
+is earlier and which may be prior to the Agreement Version Date) and will
+remain in full force and effect while you use any App, unless earlier
+terminated in accordance with this Agreement.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>3.3 We may (a) suspend your
+rights to use any App, and/or any related services or (b) terminate this
+Agreement, at any time for any reason at our sole discretion with or without
+notice to you, including if we in good faith believe you have violated the
+Acceptable Use Policy or any other provision of this Agreement. Without
+limiting the foregoing, TREEHOUSE reserves the right to terminate its Agreement
+with any user who repeatedly infringes third party copyright rights upon prompt
+notification to TREEHOUSE by the copyright owner or the copyright owner’s legal
+agent.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>3.4 Upon termination of this
+Agreement, your right to use the App will automatically terminate immediately.
+You understand that any termination may involve deletion of your User Content
+associated therewith from our live databases. TREEHOUSE will not have any
+liability whatsoever to you for any termination of this Agreement, including
+deletion of your User Content. Even after this Agreement is terminated, the
+following provisions of this Agreement will remain in effect: Sections 1.2,
+1.3, 1.4, 1.5, 2, 3.4, 4, 5, 6, 7, 8, 9, and 10.<o:p></o:p></span></h3>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>4. Indemnity<o:p></o:p></span></h2>
+
+</div>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>You agree to defend, indemnify and hold harmless TREEHOUSE (and
+its suppliers) from and against any claims, suits, losses, damages,
+liabilities, costs, and expenses (including reasonable attorneys’ fees) brought
+by third parties resulting from or relating to: (<span class=SpellE>i</span>)
+your use of any App, (ii) your User Content, or (iii) your violation of this
+Agreement. TREEHOUSE reserves the right, at your expense, to assume the
+exclusive defense and control of any matter for which you are required to
+indemnify TREEHOUSE and you agree to cooperate with our defense of these
+claims. You agree not to settle any matter without the prior written consent of
+TREEHOUSE. TREEHOUSE will use reasonable efforts to notify you of any such
+claim, action or proceeding upon becoming aware of it.<o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>5. Third Parties<o:p></o:p></span></h2>
+
+</div>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>5.1 Application Stores. You
+acknowledge and agree that the availability of the App is dependent on the
+third party from which you received App, e.g., the Apple iPhone or Android
+stores (“Application Store”). You acknowledge that this Agreement is between
+you and TREEHOUSE and not with the Application Store. The Application Store is
+not responsible for the App, the content thereof, maintenance, support
+services, and warranty therefor, and addressing any claims relating thereto
+(e.g., product liability, legal compliance, or intellectual property
+infringement). You agree to pay all fees charged by the Application Store in
+connection with App (if any). You agree to comply with, and your license to use
+App is conditioned upon your compliance with, all applicable third party terms
+of agreement (e.g., the Application Store’s terms and policies) when using App.
+You acknowledge that the Application Store (and its subsidiaries) are third
+party beneficiaries of this Agreement and will have the right to enforce this
+Agreement.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>5.2 Third Party Services<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>TREEHOUSE may permit certain third party applications (like
+leaderboards, game networks) to provide content through the App (“Third Party
+Services”). The App may be used to send content provided by the Third Party
+Service between users who have the Third Party Service installed on their
+device. When you do so, TREEHOUSE will share information with the Third Party
+Service as described in the TREEHOUSE Privacy Policy. TREEHOUSE is not
+responsible for and does not control Third Party Services. TREEHOUSE provides
+these Third Party Services only as a convenience to you. TREEHOUSE has no
+obligation to review or monitor, and does not approve, endorse, or make any
+representations or warranties with respect to Third Party Services. You use all
+Third Party Services at your own risk. When you access a Third Party Service,
+the applicable third party’s terms and policies apply, including the third
+party’s privacy policies. You should make whatever investigation you feel
+necessary or appropriate before proceeding with any transaction in connection
+with any Third Party Services.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>5.4 Other Users<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>An App may contain User Content provided by other users of the
+App. TREEHOUSE is not responsible for and does not control User Content.
+TREEHOUSE has no obligation to review or monitor, and does not approve,
+endorse, or make any representations or warranties with respect to User
+Content. You use all User Content and interact with other users at your own
+risk. Your interactions with other users are solely between you and the other
+user and we are under no obligation to become involved. You agree that
+TREEHOUSE will not be responsible for any liability incurred as the result of
+any such interactions.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>5.5 Release<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>You hereby irrevocably and unconditionally release and forever
+discharge TREEHOUSE (and its suppliers) from any and all claims, demands, and
+rights of action, whether now known or unknown, which relates to any
+interactions with, or act or omission of, any Third Party Service, other Apps
+users, or Third Party Advertisers. IF YOU ARE A CALIFORNIA RESIDENT, YOU HEREBY
+WAIVE CALIFORNIA CIVIL CODE SECTION 1542 IN CONNECTION WITH THE FOREGOING,
+WHICH STATES: “A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR
+DOES NOT KNOW OR SUSPECT TO EXIST IN HIS OR HER FAVOR AT THE TIME OF EXECUTING
+THE RELEASE, WHICH IF KNOWN BY HIM OR HER MUST HAVE MATERIALLY AFFECTED HIS OR
+HER SETTLEMENT WITH THE DEBTOR.”<o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>6. Disclaimers<o:p></o:p></span></h2>
+
+</div>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>6.1 APPS ARE PROVIDED “AS-IS” AND
+AS AVAILABLE AND TREEHOUSE (AND ITS SUPPLIERS) EXPRESSLY DISCLAIM ANY
+WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING
+THE WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE, QUIET ENJOYMENT, ACCURACY, OR NON-INFRINGEMENT. TREEHOUSE (AND
+ITS SUPPLIERS) MAKE NO WARRANTY THAT ANY APP: (A) WILL MEET YOUR REQUIREMENTS;
+(B) WILL BE AVAILABLE ON AN UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE BASIS;
+OR (C) WILL BE ACCURATE, RELIABLE, COMPLETE, LEGAL, OR SAFE.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>6.2 SOME JURISDICTIONS DO NOT
+ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY
+TO YOU.<o:p></o:p></span></h3>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>7. Limitation on Liability<o:p></o:p></span></h2>
+
+</div>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>7.1 IN NO EVENT SHALL TREEHOUSE
+(OR ITS SUPPLIERS) BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY LOST PROFIT OR
+ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL OR PUNITIVE DAMAGES
+ARISING FROM OR RELATING TO THIS AGREEMENT OR TREEHOUSE’S PRIVACY PRACTICES,
+ANY APP, EVEN IF TREEHOUSE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ACCESS TO, AND USE OF, ANY APP ARE AT YOUR OWN DISCRETION AND RISK, AND YOU
+WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR MOBILE
+DEVICE OR LOSS OF DATA RESULTING THEREFROM. NOTWITHSTANDING ANYTHING TO THE
+CONTRARY CONTAINED HEREIN, TREEHOUSE’S¬ LIABILITY TO YOU FOR ANY DAMAGES
+ARISING FROM OR RELATED TO THIS AGREEMENT OR TREEHOUSE’S¬ PRIVACY PRACTICES
+(FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION), WILL AT
+ALL TIMES BE LIMITED TO THE AMOUNT YOU’VE PAID TREEHOUSE IN THE PRIOR 12 MONTHS
+(IF ANY). IN NO EVENT SHALL TREEHOUSE’S SUPPLIERS HAVE ANY LIABILITY ARISING
+OUT OF OR IN ANY WAY CONNECTED TO THIS AGREEMENT.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>7.2 SOME JURISDICTIONS DO NOT
+ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OF CONSEQUENTIAL
+DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU AND YOU MAY
+ALSO HAVE OTHER LEGAL RIGHTS THAT VARY FROM JURISDICTION TO JURISDICTION.<o:p></o:p></span></h3>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>8. Fees<o:p></o:p></span></h2>
+
+</div>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>You agree to pay all fees and applicable taxes incurred by you
+or anyone making purchases through the App. TREEHOUSE may revise the pricing
+for the goods and services offered to you through the App at any time. YOU
+ACKNOWLEDGE THAT TREEHOUSE IS NOT REQUIRED TO PROVIDE A REFUND FOR ANY REASON,
+AND THAT YOU WILL NOT RECEIVE MONEY OR OTHER COMPENSATION FOR UNUSED VIRTUAL
+ITEMS WHEN YOU CLOSE YOUR ACCOUNT OR WHEN YOU CEASE TO USE THE APP<o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>9. General<o:p></o:p></span></h2>
+
+</div>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>9.1 Changes to this Agreement<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>This Agreement is subject to occasional revision, and if we make
+any substantial changes, we may notify you by prominently posting notice of the
+changes on our Site. Any changes to this Agreement will be effective upon the
+earlier of thirty (30) calendar days following our dispatch of an e-mail notice
+to you (if applicable) or thirty (30) calendar days following our posting of
+notice of the changes on our Site. These changes will be effective immediately
+for new users of our Apps. Continued use of our Apps following notice of such
+changes shall indicate your acknowledgement of such changes and agreement to be
+bound by the terms and conditions of such changes. The date on which the latest
+update was made is indicated at the top of this document. We recommend that you
+print a copy of this Agreement for your reference and revisit this webpage from
+time to time to ensure you are aware of any changes.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>9.2 Notice<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>Any notice provided to TREEHOUSE pursuant to this Agreement
+should be sent to hello@busybucket.com</span><span lang=EN-US style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>9.3 Severability<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>If any provision of this Agreement is, for any reason, held to
+be invalid or unenforceable, the other provisions of this Agreement will be
+unimpaired and the invalid or unenforceable provision will be deemed modified
+so that it is valid and enforceable to the maximum extent permitted by law.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>9.4 Entire Agreement<o:p></o:p></span></h3>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>This Agreement is the final, complete and exclusive agreement of
+you and TREEHOUSE with respect to the subject matters hereof (including all
+Apps) and supersede and merge all prior discussions and agreements between the
+parties with respect to such subject matters (including any prior End User
+License Agreements and Terms of Service or Privacy Policy). Our failure to
+exercise or enforce any right or provision of this Agreement shall not operate
+as a waiver of such right or provision. The section titles in this Agreement
+are for convenience only and have no legal or contractual effect. The word
+including means including without limitation. Your relationship to TREEHOUSE is
+that of an independent contractor, and neither party is an agent or partner of
+the other. This Agreement, and your rights and obligations herein, may not be
+assigned by you without TREEHOUSE’s prior written consent, and any attempted
+assignment in violation of the foregoing will be null and void. TREEHOUSE may
+assign this Agreement in connection with a merger, acquisition, reorganization
+or sale of all or substantially all of its assets, or other operation of law,
+without your consent. The terms of this Agreement shall be binding upon
+assignees.<o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #EEEEEE 1.0pt;
+mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm 0cm 4.0pt 0cm'>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;border:none;mso-border-bottom-alt:solid #EEEEEE .75pt;padding:0cm;
+mso-padding-alt:0cm 0cm 4.0pt 0cm'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>10. Apple Application Store Additional Terms and Conditions<o:p></o:p></span></h2>
+
+</div>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+color:#333333'>The following additional terms and conditions apply to you if
+you are using an App from the Apple Application Store. To the extent the other
+terms and conditions of this Agreement are less restrictive than, or otherwise
+conflict with, the terms and conditions of this Section 10, the more
+restrictive or conflicting terms and conditions in this Section 10 apply, but
+solely with respect to Apps from the Apple Application Store.<o:p></o:p></span></p>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>10.1 Acknowledgement: TREEHOUSE
+and you acknowledge that this Agreement is concluded between TREEHOUSE and you
+only, and not with Apple, and TREEHOUSE, not Apple, is solely responsible for
+App and the content thereof. To the extent this Agreement provides for usage
+rules for App that are less restrictive than the Usage Rules set forth for App
+in, or otherwise is in conflict with, the Application Store Terms of Service,
+the more restrictive or conflicting Apple term applies.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>10.2 Scope of License: The
+license granted to you for App is limited to a non-transferable license to use
+App on an iOS Product that you own or control and as permitted by the Usage
+Rules set forth in the Application Store Terms of Service.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>10.3 Maintenance and Support:
+TREEHOUSE is solely responsible for providing any maintenance and support
+services with respect to App, as specified in this Agreement (if any), or as
+required under applicable law. TREEHOUSE and you acknowledge that Apple has no
+obligation whatsoever to furnish any maintenance and support services with
+respect to App.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>10.4 Warranty: TREEHOUSE is
+solely responsible for any product warranties, whether express or implied by
+law, to the extent not effectively disclaimed. In the event of any failure of
+App to conform to any applicable warranty, you may notify Apple, and Apple may
+refund the purchase price for App to you; and to the maximum extent permitted
+by applicable law, Apple will have no other warranty obligation whatsoever with
+respect to App, and any other claims, losses, liabilities, damages, costs or
+expenses attributable to any failure to conform to any warranty will be
+TREEHOUSE’s sole responsibility.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>10.5 Product Claims: TREEHOUSE
+and you acknowledge that TREEHOUSE, not Apple, is responsible for addressing
+any claims of you or any third party relating to App or your possession and/or
+use of App, including, but not limited to: (<span class=SpellE>i</span>)
+product liability claims; (ii) any claim that App fails to conform to any
+applicable legal or regulatory requirement; and (iii) claims arising under
+consumer protection or similar legislation. This Agreement does not limit
+TREEHOUSE’s liability to you beyond what is permitted by applicable law.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>10.6 Intellectual Property
+Rights: TREEHOUSE and you acknowledge that, in the event of any third party
+claim that App or your possession and use of App infringes that third party’s
+intellectual property rights, TREEHOUSE, not Apple, will be solely responsible
+for the investigation, defense, settlement and discharge of any such
+intellectual property infringement claim.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>10.7 Legal Compliance: You
+represent and warrant that (<span class=SpellE>i</span>) you are not located in
+a country that is subject to a U.S. Government embargo, or that has been
+designated by the U.S. Government as a “terrorist supporting” country; and (ii)
+you are not listed on any U.S. Government list of prohibited or restricted
+parties.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>10.8 Developer Name and Address:
+TREEHOUSE’s contact information for any end-user questions, complaints or
+claims with respect to App is set forth in Section 9.2.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm'><span lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+"Times New Roman";mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:major-bidi;color:#333333'>10.9 Third Party Terms of
+Agreement: You must comply with applicable third party terms of agreement when
+using App.<o:p></o:p></span></h3>
+
+<h3 style='margin-top:18.0pt'><span lang=EN-US style='font-size:12.0pt;
+line-height:112%;font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#333333'>10.10 Third Party Beneficiary: TREEHOUSE and you acknowledge and
+agree that Apple, and Apple’s subsidiaries, are third party beneficiaries of
+this Agreement, and that, upon your acceptance of the terms and conditions of
+this Agreement, Apple will have the right (and will be deemed to have accepted
+the right) to enforce this Agreement against you as a third party beneficiary
+thereof.<o:p></o:p></span></h3>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-spacerun:yes'> </span></span></p>
+
+</div>
+
+</body>
+
+</html>

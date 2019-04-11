@@ -1,0 +1,22 @@
+{
+  "plugins": [],
+  "recurseDepth": 10,
+  "source": {
+    "include": ["app"]
+  },
+  "sourceType": "module",
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc","closure"]
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  },
+  "opts": {
+    "template": "node_modules/toast-jsdoc",
+    "encoding": "utf8",
+    "destination": "./doc/",
+    "recurse": true
+  }
+}

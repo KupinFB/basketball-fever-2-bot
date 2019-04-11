@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "ball": {
+    "density": 0.7,
+    "friction": 5.0,
+    "restitution": 0.66
+  },
+  "basket": {
+    "width": 1.36
+  },
+  "AD": {
+    "gamesHasToBePlayedToShowMenuAD": 2
+  }
+}

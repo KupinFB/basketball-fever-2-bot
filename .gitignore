@@ -1,0 +1,17 @@
+/doc
+/.idea
+.idea/
+/.settings
+.settings/
+.brackets.json
+.vscode/settings.json
+
+
+# Ignore "dist" folder
+dist/
+
+# Ignore "node_modules" folder
+node_modules/
+
+
+
