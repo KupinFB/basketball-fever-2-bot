@@ -75,7 +75,7 @@ module.exports = {
                         "buttons": [
                             {
                                 "type": "game_play",
-                                "title": "Play Pong Fever",
+                                "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'thanks_for_playing_solo_button'}),
                             }
                         ],
@@ -222,7 +222,7 @@ module.exports = {
                         "buttons": [
                             {
                                 "type": "game_play",
-                                "title": "Play Pong Fever",
+                                "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'eye_ball_present'}),
                             }
                         ],
@@ -244,7 +244,7 @@ module.exports = {
                         "buttons": [
                             {
                                 "type": "game_play",
-                                "title": "Play Pong Fever",
+                                "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'fire_ball_present_d1'}),
                             }
                         ],
@@ -266,7 +266,7 @@ module.exports = {
                         "buttons": [
                             {
                                 "type": "game_play",
-                                "title": "Play Pong Fever",
+                                "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'fire_ball_present_d2'}),
                             }
                         ],
@@ -288,7 +288,7 @@ module.exports = {
                         "buttons": [
                             {
                                 "type": "game_play",
-                                "title": "Play Pong Fever",
+                                "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'fire_ball_present_d3'}),
                             }
                         ],
@@ -310,7 +310,7 @@ module.exports = {
                         "buttons": [
                             {
                                 "type": "game_play",
-                                "title": "Play Pong Fever",
+                                "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'daily_gift_coins'}),
                             }
                         ],

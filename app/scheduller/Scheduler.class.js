@@ -53,11 +53,15 @@ class Scheduler {
 
                 tasksArr.forEach((curTask) => {
                     const messageData = Scheduler.GetMessageDataForTask(curTask);
-                    this.callSendAPI(curTask.senderID, messageData)
+                    this.db.getPlayers("WHERE FBPlayerID='" + curTask.playerID + "'").then((playersArr) => {
+                            const playerData = playersArr[0];
+                            return this.callSendAPI(playerData.FBSenderID, messageData)
+                        })
                         .then(() => { // The message was sent
                             return this.db.removeSchedulerTask(curTask.taskID);
                         })
                         .then(() => {
+
                             // !!! DONE D3 - Добалять тикет в инвентарь
                             // // !!! DONE Ежедневный подарок - Добалять задачу Ежедневного подарка
                             if (curTask.template === SchedulerTask.TEMPLATES.DAILY_GIFT) {

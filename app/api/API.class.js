@@ -180,6 +180,8 @@ class API {
                         }else{
                             // НОВЫЙ ПОЛЬЗОВАТЕЛЬ
                             return new Promise((resolve, reject)=>{
+
+                                console.log('ADD player 2');
                                 this.db.addPlayer({
                                     FBPlayerID: data.playerID,
                                     FBSenderID: '',
@@ -244,6 +246,7 @@ class API {
                             return playersArr;
                         }else{
                             return new Promise((resolve, reject)=>{
+                                console.log('ADD player 1');
                                 this.db.addPlayer({
                                     FBPlayerID: data.playerID,
                                     FBSenderID: '',

@@ -46,18 +46,28 @@ class Bot {
              * @property {Object} entry.messaging.sender
              * @property {String} entry.messaging.sender.id */
             let body = req.body;
-            console.log('SOME EVENT');
+            console.log('____________________');
+            console.log('--== SOME EVENT ==--');
             if (body.object === 'page') {
-                body.entry.forEach((entry) => {
-                    entry.messaging.forEach((event) => {
-                        if (event.game_play) {
-                            this.handleGamePlayEvent(event);
-                        }else if (event.message) {
-                            //console.log('  message: ' + event.message);
-                            this.handleMessage(event.sender.id, event.message);
+                if(body.entry){
+                    body.entry.forEach((entry) => {
+                        if(entry.messaging){
+                            entry.messaging.forEach((event) => {
+                                if (event.game_play) {
+                                    this.handleGamePlayEvent(event);
+                                }else if (event.message) {
+                                    //console.log('  message: ' + event.message);
+                                    this.handleMessage(event.sender.id, event.message);
+                                }
+                            });
+                        }else if(entry.changes){
+                            entry.changes.forEach((change) => {
+                                console.log('change', change);
+                            });
                         }
+
                     });
-                });
+                }
                 res.status(200).send('EVENT_RECEIVED');
             } else {
                 res.sendStatus(404);
@@ -76,6 +86,8 @@ class Bot {
                 } else {
                     res.sendStatus(403);
                 }
+            }else{
+                res.sendStatus(403);
             }
         });
 
@@ -119,34 +131,36 @@ class Bot {
             FBPhotoURL: payload?payload.p:'',
             FBBestScore: payload?payload.bs:0
         };
-        //console.log("game play event:  ", payload);
 
         consoleLogger.logGamePlayEvent(playerId, senderId);
 
-        if(!payload || !payload.t) {
-            //return; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Убрать отправку!!
-            this.callSendAPI(senderId, messagesGenerator.prepareThanksForPlaying2());
-            return;
-        }
-
-
         this.db.getPlayers("WHERE FBPlayerID='" + playerId + "'").then((playersArr) => {
             if (playersArr && playersArr.length > 0) {
-                this.db.connectAndQuery("UPDATE mt_players SET " +
-                    "   LastPlayDateTime = NOW(), " +
-                    "   AvailableMessagesCount = ?, " +
-                    "   FBSenderID = ? " +
-                    "WHERE PlayerID = ?;",
+                this.db.connectAndQuery('UPDATE mt_players SET ' +
+                    '   LastPlayDateTime = NOW(), ' +
+                    '   FBSenderID = ?, ' +
+                    '   AvailableMessagesCount = ? ' +
+                    'WHERE FBPlayerID = ?;',
                     [
-                        5,
                         senderId,
+                        5,
                         playerId
                     ])
+                    .then(()=>{
+
+                    })
                     .catch((reason)=>{
                         console.log('Can not update player data (GamePlayEvent)', reason);
                     });
             }
         });
+
+        if(!payload || !payload.t) {
+            //return; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Убрать отправку!!
+            //this.callSendAPI(senderId, messagesGenerator.prepareThanksForPlaying2());
+            console.log("!payload");
+            return;
+        }
 
         if(payload.t === 'T_F_P_1'){
             if(payload.opp && payload.opp.length > 0){ // SEND THANKS FOR PLAYING - LIST
