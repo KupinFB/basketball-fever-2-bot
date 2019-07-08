@@ -6,9 +6,18 @@
     "restitution": 0.66
   },
   "basket": {
-    "width": 1.36
+    "width": 1.4,
+    "isDynamicWidth": true,
+    "dynamicWidthRules": [
+      { "level": 0, "value": 1.4 },
+      { "level": 1, "value": 1.4 },
+      { "level": 2, "value": 1.4 },
+      { "level": 3, "value": 1.41 },
+      { "level": 4, "value": 1.41 },
+      { "level": 5, "value": 1.40 }
+    ]
   },
   "AD": {
-    "gamesHasToBePlayedToShowMenuAD": 2
+    "gamesHasToBePlayedToShowMenuAD": 1
   }
 }
