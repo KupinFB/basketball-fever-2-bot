@@ -298,7 +298,7 @@ class DBHelper{
      * @returns {Promise<DBDuelOpponent>}*/
     retrieveDuelOpponent(playerID) {
         return new Promise((resolve, reject)=>{
-            this.connectAndQuery('SELECT * FROM mt_players WHERE FBPlayerID <> ? ORDER BY RAND() LIMIT 1', [playerID])
+            this.connectAndQuery('SELECT * FROM mt_players WHERE FBPlayerID <> ? AND CreationDateTime > NOW() - INTERVAL 7 DAY ORDER BY RAND() LIMIT 1', [playerID])
                 .then((arr)=>{
                     if(!arr || !arr.length){
                         reject({code: 'NOT_FOUND', message: 'Opponent was not found'})
