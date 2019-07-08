@@ -18,6 +18,12 @@ module.exports = {
                                 "title": "Play Now",
                                 "payload": JSON.stringify({from: 'thanks_for_playing_solo_button'}),
                             }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
+                            }
                         ],
                     }]
                 }
@@ -78,6 +84,12 @@ module.exports = {
                                 "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'thanks_for_playing_solo_button'}),
                             }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
+                            }
                         ],
                     }]
                 }
@@ -135,6 +147,12 @@ module.exports = {
                             "title": "Play Basketball Fever",
                             "payload": "{}"
                         }
+                        ,{
+                            "type":"web_url",
+                            "url":"https://www.facebook.com/basketballfever2/",
+                            "title":"Funpage",
+                            "webview_height_ratio": "full"
+                        }
                     ],
                 }]
             }
@@ -174,6 +192,12 @@ module.exports = {
                                     "player_id": id
                                 }
                             }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
+                            }
                         ],
                     }]
                 }
@@ -202,6 +226,12 @@ module.exports = {
                                     "player_id": id
                                 }
                             }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
+                            }
                         ],
                     }]
                 }
@@ -225,6 +255,12 @@ module.exports = {
                                 "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'eye_ball_present'}),
                             }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
+                            }
                         ],
                     }]
                 }
@@ -246,6 +282,12 @@ module.exports = {
                                 "type": "game_play",
                                 "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'fire_ball_present_d1'}),
+                            }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
                             }
                         ],
                     }]
@@ -269,6 +311,12 @@ module.exports = {
                                 "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'fire_ball_present_d2'}),
                             }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
+                            }
                         ],
                     }]
                 }
@@ -289,7 +337,13 @@ module.exports = {
                             {
                                 "type": "game_play",
                                 "title": "Play Basketball Fever",
-                                "payload": JSON.stringify({from: 'fire_ball_present_d3'}),
+                                "payload": JSON.stringify({from: 'fire_ball_present_d3'})
+                            }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
                             }
                         ],
                     }]
@@ -312,6 +366,12 @@ module.exports = {
                                 "type": "game_play",
                                 "title": "Play Basketball Fever",
                                 "payload": JSON.stringify({from: 'daily_gift_coins'}),
+                            }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
                             }
                         ],
                     }]
