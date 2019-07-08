@@ -380,6 +380,12 @@ module.exports = {
                                 "title": messageData.buttonText,
                                 "payload": JSON.stringify({from: messageData.guid}),
                             }
+                            ,{
+                                "type":"web_url",
+                                "url":"https://www.facebook.com/basketballfever2/",
+                                "title":"Funpage",
+                                "webview_height_ratio": "full"
+                            }
                         ],
                     }]
                 }
